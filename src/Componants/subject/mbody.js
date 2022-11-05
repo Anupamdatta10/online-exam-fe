@@ -53,7 +53,7 @@ render() {
          <div style={{ display: "flex", flexWrap: "wrap" }}>
        { this.state.data.map((item,index)=>(
         
-            <div className='card shadow px-3 p-3 mb-4 bg-light rounded' style={{ width: '25rem' }} >
+            <div className='card shadow px-3 p-3 mb-4 mx-2 bg-light rounded' style={{ width: '20rem' }} >
                 <Card.Img variant="top" src={item.imgurl} height="200" width="300"/>
                 <Card.Body>
                   <Card.Title>{item.name}</Card.Title>

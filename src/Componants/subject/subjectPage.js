@@ -17,33 +17,7 @@ export default function SubjectPage() {
         </Button></Col>
         </Row>
         <hr></hr>
-        <Row>
-          <Col xs lg="2">
-            <div className='card p-1 mb-2 nav-item'>
-            English
-            </div>
-            <div className='card p-1 mb-2 nav-item'>
-            Mathematics
-            </div>
-            <div className='card p-1 mb-2 nav-item'>
-            Physics
-            </div>
-            <div className='card p-1 mb-2 nav-item'>
-            Chemistry
-            </div>
-            <div className='card p-1 mb-2 nav-item'>
-            Biology
-            </div>
-          </Col>
-          <div className="vr"/>
-          <Col  >
-            <div >
-              
-              <Mbody/>
-              
-              </div>
-            </Col>
-        </Row>
+        <Mbody/>
       </Container>
     </>
   )
