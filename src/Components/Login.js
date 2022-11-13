@@ -12,14 +12,15 @@ import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
 //import { Link } from "react-router-dom";
 class Login extends React.Component {
+
   render() {
     return (
-      <Container mx-3>
+      <Container className="m-auto mt-5 w-50 " >
         <div className="shadow-lg p-3 mb-5 bg-body rounded">
           <center>
             <h3>LOGIN</h3>
           </center>
-          <Form action="">
+          <Form action="" onSubmit={(e)=>{e.preventDefault()}}>
             <Row>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -33,8 +34,8 @@ class Login extends React.Component {
               </Form.Group>
             </Row>
             Don't have an account? SignUp
-            <center>
-              <Button variant="secondary" type="submit">
+            <center className="mt-3">
+              <Button variant="primary" type="submit">
                 Submit
               </Button>
             </center>
