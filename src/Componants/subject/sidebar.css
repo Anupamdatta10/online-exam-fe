@@ -1,0 +1,12 @@
+
+
+.probutton{
+    background-color: rgb(183, 121, 241);
+    outline: invert;
+    border-radius: 60%;
+}
+
+.sidenavitem{
+    background-color: rgb(62, 130, 246);
+    
+}

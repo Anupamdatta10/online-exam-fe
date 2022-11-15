@@ -1,0 +1,38 @@
+.heaader {
+    text-align: center;
+    color: rgb(167, 167, 243);
+    
+    text-decoration: underline;
+    padding: 10px;
+    margin-right: 30px;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(132, 0, 255), 0 0 5px darkblue;
+    font-size: 60px;
+}
+.rowheader{
+    padding: 2px;
+    
+    background-color: rgb(130, 254, 124);
+  }
+
+  .rowheadcol1{
+    
+    
+    
+    background-color: rgb(130, 254, 124);
+  }
+  .rowheadcol2{
+    padding-top: 20px;
+    background-color: rgb(130, 254, 124);
+    text-align: right;
+  }
+
+  .boody{
+    background-color: bisque;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .profilebt{
+    border-radius: 60%;
+  }
+  
