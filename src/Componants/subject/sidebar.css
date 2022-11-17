@@ -6,7 +6,16 @@
     border-radius: 60%;
 }
 
-.sidenavitem{
+.naitem{
     background-color: rgb(62, 130, 246);
+    border-radius: 15px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+    padding: 10px;
     
+}
+
+.sidebarr{
+    background-color: aquamarine;
 }

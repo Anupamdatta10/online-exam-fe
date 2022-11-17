@@ -16,24 +16,24 @@ function Example() {
       <CgProfile size='3em' />
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose}>
+      <Offcanvas className="sidebarr" show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>PROFILE NAME</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-        <div className='navitem p-1 mb-2'>
+        <div className='naitem p-1 mb-3'>
             English
             </div>
-            <div className=' p-1 mb-2 '>
+            <div className='naitem p-1 mb-3 '>
             Mathematics
             </div>
-            <div className='p-1 mb-2 '>
+            <div className=' naitem p-1 mb-3 '>
             Physics
             </div>
-            <div className=' p-1 mb-2 '>
+            <div className='naitem p-1 mb-3 '>
             Chemistry
             </div>
-            <div className=' p-1 mb-2 '>
+            <div className='naitem p-1 mb-3 '>
             Biology
             </div>
         </Offcanvas.Body>

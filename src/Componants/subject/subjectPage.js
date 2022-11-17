@@ -14,7 +14,7 @@ export default function SubjectPage() {
       <Container fluid>
         <Row fluid className='rowheader' ><Col className='rowheadcol1'lg={true} xs={12} md={8} ><h1 className='heaader' >S U B J E C T S </h1></Col>
         
-        <Col className='rowheadcol2 ' xs={6} md={4} ><div   className='profilebt wrapper'  size="lg"><Sidebarr/>
+        <Col className='rowheadcol2 ' xs={6} md={4} ><div   className='profilebt wrapper'  ><Sidebarr/>
         </div></Col>
         </Row>
         <hr></hr>
