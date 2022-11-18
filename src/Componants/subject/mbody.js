@@ -53,7 +53,7 @@ class Mbody extends React.Component {
     render() {
         return (
             <>
-                <div style={{ display: "flex", flexWrap: "wrap" }}>
+                <div style={{ display: "flex", flexWrap: "wrap",paddingleft:' 50px' }}>
                     {this.state.data.map((item, index) => (
 
                         <div className='card  px-3 p-3 mb-4 mx-3  rounded' border="primary" >
